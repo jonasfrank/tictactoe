@@ -54,7 +54,6 @@ public class Board {
         return gameboard[0].equals(a) && gameboard[1].equals(a) && gameboard[2].equals(a) ||   // Horisontell
                 gameboard[3].equals(a) && gameboard[4].equals(a) && gameboard[5].equals(a) ||
                 gameboard[6].equals(a) && gameboard[7].equals(a) && gameboard[8].equals(a) ||
-                gameboard[0].equals(a) && gameboard[1].equals(a) && gameboard[2].equals(a) ||
                 gameboard[0].equals(a) && gameboard[3].equals(a) && gameboard[6].equals(a) ||  // Vertikal
                 gameboard[1].equals(a) && gameboard[4].equals(a) && gameboard[7].equals(a) ||
                 gameboard[2].equals(a) && gameboard[5].equals(a) && gameboard[8].equals(a) ||
